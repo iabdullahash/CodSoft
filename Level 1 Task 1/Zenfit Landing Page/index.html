@@ -62,7 +62,7 @@
 
   </section>
 
-  <section class="about"  data-aos="fade-up">
+  <section class="about" data-aos="fade-up">
 
 
     <img id="about" src="assets/images/About.png" alt="">
@@ -107,7 +107,7 @@
   </section>
 
 
-  <section class="features" id="features" aria-label="features"  data-aos="fade-up">
+  <section class="features" id="features" aria-label="features" data-aos="fade-up">
     <div class="features-heading">
 
       <h2 class="features-title">Our App <span>Features</span></h2>
@@ -189,7 +189,7 @@
           </div>
         </div>
       </div>
-      <div class="row" >
+      <div class="row">
         <div class="owl-carousel owl-theme screenshots-carousel">
           <div class="screenshot-item ">
             <img src="assets/images/Dashboard.png" alt="Screenshot">
@@ -211,8 +211,68 @@
     </div>
   </section>
 
-  <footer class="footer" >
-    <div class="start-learning"  data-aos="fade-up" id="download">
+
+  <section class="contact" data-aos="fade-up">
+    <div class="container">
+      <div class="contact-box" id="contact">
+        <div class="contact-info">
+          <h3 class="title">Get in touch</h3>
+          <p class="text">
+            Give us a call or drop a message anytime, we will have a chat.
+          </p>
+          <div class="information-wrap">
+            <div class="information">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <p class="info-text">Islamabad, Pakistan</p>
+            </div>
+
+            <div class="information">
+              <div class="contact-icon">
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <p class="info-text">info@zenfit.com</p>
+            </div>
+
+            <div class="information">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <p class="info-text">+92XXXXXXXXX</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form form action="" method="POST">
+            <h3 class="title">Contact me</h3>
+            <div class="row">
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_subject" value="Contact" />
+
+              <input class="contact-input" placeholder="First Name" type="text" name="fname" required />
+              <input type="text" class="contact-input" placeholder="Last Name" name="lname" required />
+            </div>
+
+            <div class="row">
+              <input type="text" class="contact-input" placeholder="Phone" name="phone" required />
+              <input type="email" class="contact-input" placeholder="Email" name="email" required />
+            </div>
+
+            <div class="row">
+              <textarea class="contact-input textarea" placeholder="Message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="start-learning" data-aos="fade-up" id="download">
       <div class="footer-start">
         <div class="texts">
           <h3 class="section-sub-heading">Join the Fitness Revolution</h3>
@@ -257,11 +317,12 @@
             <li><a href="#about">About</a></li>
             <li><a href="#features">Features</a></li>
             <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
 
         <div class="column is-nav">
-          <div id="contact" class="column-title">Contact</div>
+          <div class="column-title">Contact</div>
           <ul>
             <li>
               <ion-icon name="mail-outline" aria-hidden="true"></ion-icon> info@zenfit.com
@@ -296,8 +357,8 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
-        offset : 200,
-        duration : 1200,
+      offset: 200,
+      duration: 1200,
     });
   </script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
