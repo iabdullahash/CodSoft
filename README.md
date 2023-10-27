@@ -9,7 +9,6 @@ Welcome to my CodSoft Internship project repository! This repository contains th
 - **Description**: I created an App landing page for an app called Zenfit.
 - **Technologies Used**: HTML, CSS, JavaScript
 
-**Demo**: [Click Here](https://app-landing-page.abdullahashkun.repl.co/)
 
 **Screenshot**:
 <div>
@@ -22,8 +21,6 @@ Welcome to my CodSoft Internship project repository! This repository contains th
 - **Description**: I developed a personal portfolio website.
 - **Technologies Used**: HTML, CSS, JavaScript
 
-**Demo**: [Click Here](https://portfolio.abdullahashkun.repl.co/)
-
 **Screenshot**:
 <div>
   <img src="Screenshots/Portfolio.png" alt="Screenshot 2" width="500" />
@@ -35,7 +32,6 @@ Welcome to my CodSoft Internship project repository! This repository contains th
 - **Description**: I designed a user-friendly calculator.
 - **Technologies Used**: HTML, CSS, JavaScript
 
-**Demo**: [Click Here](https://calculator.abdullahashkun.repl.co)
 
 **Screenshot**:
 <div>
